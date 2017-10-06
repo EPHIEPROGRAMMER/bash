@@ -1,0 +1,87 @@
+/* body{
+    background-image: url('bg.jpg') 
+} */
+#outside {
+    z-index: 1;
+    position: absolute;
+    background-image: url('b.jpg');
+    background-size: auto;
+   
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: 1s;
+    transform-origin: 0;
+  }
+  
+  .b1{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .open-card {
+    transform: rotateY(90deg);
+  }
+  h1{
+    color: #7bd112;
+  }
+  #outside-title {
+    
+    font-family: Courier;
+    font-size: 12pt;
+    text-align: center;
+  }
+  
+  #outside-pic {
+    width: 150px;
+    height: 150px;
+  }
+  
+  #outside-help {
+    color: black;
+    font-family: Courier;
+    font-size: 12pt;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #inside {
+    z-index: 0;
+    position: absolute;
+    background-color: #0c0c0c;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-image: url('bg.jpg') ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+ }
+  
+  #inside-title {
+    color: yellow;
+    font-family: Courier;
+    font-size: 12pt;
+    text-align: center;
+  }
+  
+  #inside-pic {
+    width: 150px;
+    height: 150px;
+  }
+  
+  #message {
+    color: black;
+    font-family: Courier;
+    font-size: 12pt;
+    text-align: center;
+  }
+  
+  button {
+    background: silver;
+  }
